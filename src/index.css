@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .btn {
+    @apply text-xl normal-case h-auto min-h-[40px] rounded-none border-2;
+  }
+  .btn-primary {
+    @apply text-secondary;
+  }
+}
+.swal2-title, .swal2-html-container, .swal2-confirm {
+  @apply !font-raleway;
+}
