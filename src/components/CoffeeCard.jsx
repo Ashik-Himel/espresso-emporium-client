@@ -56,13 +56,13 @@ const CoffeeCard = ({ coffee, coffees, setCoffees }) => {
       </div>
       <div className="space-y-4">
         <Link
-          to={`/coffees/${_id}`}
+          to={`/coffees/${_id}`} onClick={() => scrollTo(0, 0)}
           className="bg-[#D2B48C] text-white w-12 h-12 flex justify-center items-center text-xl rounded-md"
         >
           <AiFillEye />
         </Link>
         <Link
-          to={`/update/${_id}`}
+          to={`/update/${_id}`} onClick={() => scrollTo(0, 0)}
           className="bg-[#3C393B] text-white w-12 h-12 flex justify-center items-center text-xl rounded-md"
         >
           <BiSolidPencil />

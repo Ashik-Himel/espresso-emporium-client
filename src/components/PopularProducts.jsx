@@ -29,7 +29,7 @@ const PopularProducts = () => {
             Our Popular Products
           </h2>
           <Link
-            to="/add"
+            to="/add" onClick={() => scrollTo(0, 0)}
             className="btn btn-primary border-secondary !rounded-md hover:bg-[transparent] hover:border-secondary"
           >
             Add Coffee <FiCoffee />

@@ -53,7 +53,7 @@ const UpdateCoffee = () => {
     <main className="mt-8 mb-16">
       <div className="container">
         <Link
-          to="/"
+          to="/" onClick={() => scrollTo(0, 0)}
           className="btn bg-[transparent] border-none hover:bg-primary !rounded-md mb-6"
           style={{ textShadow: "1px 1px 10px" }}
         >

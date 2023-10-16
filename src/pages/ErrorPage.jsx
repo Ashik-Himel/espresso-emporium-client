@@ -12,7 +12,7 @@ const ErrorPage = () => {
         <section>
           <div className="container">
             <div className="text-center">
-              <Link to='/' className="btn bg-[transparent] border-none hover:bg-primary !rounded-md mb-6" style={{textShadow: '1px 1px 10px'}}><BsArrowLeft /> Back to Home</Link>
+              <Link to='/' onClick={() => scrollTo(0, 0)} className="btn bg-[transparent] border-none hover:bg-primary !rounded-md mb-6" style={{textShadow: '1px 1px 10px'}}><BsArrowLeft /> Back to Home</Link>
             </div>
             <img src={errorImg} alt="404 Image" />
           </div>

@@ -7,7 +7,7 @@ const CoffeeDetails = () => {
   return (
     <main className="mt-8 mb-16">
       <div className="container">
-        <Link to='/' className="btn bg-[transparent] border-none hover:bg-primary !rounded-md mb-6" style={{textShadow: '1px 1px 10px'}}><BsArrowLeft /> Back to Home</Link>
+        <Link to='/' onClick={() => scrollTo(0, 0)} className="btn bg-[transparent] border-none hover:bg-primary !rounded-md mb-6" style={{textShadow: '1px 1px 10px'}}><BsArrowLeft /> Back to Home</Link>
         <div className="bg-bg-color p-10 rounded-lg flex flex-col md:flex-row md:gap-8 justify-around items-center">
           <div>
             <img src={photo} alt={`${name}' Photo`} className="max-h-[400px]" />
